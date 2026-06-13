@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom small tweaks */
+body {
+  @apply bg-slate-50 text-slate-800;
+}
+
+/* bỏ giới hạn width của root */
+#root {
+  width: 100%;
+  max-width: 100% !important;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
